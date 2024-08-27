@@ -95,7 +95,7 @@ def test(model, device, testing_loader):
 
                      
 def main():
-    parser = argparse.ArgumentParser(description='fashionMNIST LeNet example using pytorch')
+    parser = argparse.ArgumentParser(description='fashionMNIST AlexNet example using pytorch')
     parser.add_argument('--train-batch-size', type=int, default=4, metavar='N',
                         help='Input trainnig batch size default:4')
     parser.add_argument('--test-batch-size', type=int, default=4, metavar='N',
